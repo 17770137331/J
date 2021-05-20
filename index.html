@@ -223,7 +223,7 @@
 <script type="text/javascript">
 	$(function () {
 		$('#yes').click(function (event) {
-			modal('我就知道小姐姐您一定会愿意的。(^_^)', function () {
+			modal('叮咚，这位猪猪你好，你已进入传说中的童话地区，请问愿意和你的战友隔壁老王一起去前方探索未知的世界吗？', function () {
 				$('.page_one').addClass('hide');
 				$('.page_two').removeClass('hide');
 				// typeWrite();
@@ -232,32 +232,33 @@
 			});
 		});
 		$('#no').click(function (event) {
-			modal('明人不说暗话！', A);
+			modal('你真的不愿意嘛', A);
 		});
 	});
 
 	function A() {
-		modal('我喜欢你！', B);
+		modal('不再考虑一下嘛', B);
 	}
 
 	function B() {
-		modal('我知道你在等我这一句话', C);
+		modal('好叭，没关系', C);
 	}
 
 	function C() {
-		modal('请您不要拒绝我', D);
+		modal('不管愿不愿意', D);
 	}
 
 	function D() {
-		modal('拒绝我，不存在的', E);
+		modal('这份小惊喜都会送给你', E);
 	}
 
 	function E() {
-		modal('这辈子都不可能让你离开我', F);
+		modal('战友永远在身后嘿', F);
 	}
 
 	function F() {
-		modal('跟我走吧', G);
+		modal('未来，继续一起走吧。
+', G);
 	}
 
 	function G() {
