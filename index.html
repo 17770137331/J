@@ -249,34 +249,36 @@
 	}
 
 	function D() {
-		modal('这份小惊喜都会送给你', E);
+		modal('这场小烟花都会为你绽放哦', E);
 	}
 
 	function E() {
-		modal('战友永远在身后嘿', F);
+		modal('永远的梦梦一直都在', F);
 	}
 
 	function F() {
-		modal('未来，继续一起走吧。', G);
+		modal('未来，我们再一起去看烟花吧…', function () {
+			fireworks();
+		});
 	}
 
-	// function G() {
-	// 	modal('房产证上写你名', H);
-	// }
+	function G() {
+		modal('房产证上写你名', H);
+	}
 
-	// function H() {
-	// 	modal('我会做饭', I);
-	// }
+	function H() {
+		modal('我会做饭', I);
+	}
 
-	// function I() {
-	// 	modal('爱你。么么哒！', J)
-	// }
+	function I() {
+		modal('爱你。么么哒！', J)
+	}
 
-	// function J() {
-	// 	modal('行，我们去民政局登记吧', function () {
-	// 		fireworks();
-	// 	});
-	// }
+	function J() {
+		modal('行，我们去民政局登记吧', function () {
+			fireworks();
+		});
+	}
 
 	function fireworks() {
 		$('.page_one').addClass('hide');
